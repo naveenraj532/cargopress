@@ -1,4 +1,5 @@
 import '../index.css'; // Ensure the correct path to your CSS file
+import { Blog } from '../sections/Blog.js';
 import { Clients } from '../sections/Clients';
 import { Director } from '../sections/Director';
 import { Footer } from '../sections/Footer';
@@ -21,6 +22,9 @@ function App() {
       </section>
       <section className="xl:padding-0 wide:padding-r padding-b">
         <Services />
+      </section>
+      <section className="xl:padding-0 wide:padding-r padding-b">
+        <Blog />
       </section>
       <section className="xl:padding-0 wide:padding-r padding-b">
         <Clients />

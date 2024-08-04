@@ -19,6 +19,10 @@
   .shadow-custom {
     box-shadow: 0px 0px 16.794px -1.153px rgba(0, 0, 0, 0.25);
   }
+
+  .shadow-custom-blue {
+    box-shadow: 0px 0px 16.794px -1.153px navy;
+  }
 }
 
 @layer components {
@@ -31,6 +35,7 @@
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
 }
+
 
 @layer utilities {
   .padding {

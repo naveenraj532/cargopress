@@ -7,7 +7,6 @@ import stacketrs from "../assets/icons/stackers.svg";
 import Warehouse from "../assets/icons/Warehouse.svg";
 
 
-
 export const Services = () => {
   return (
     <div className="px-16">
