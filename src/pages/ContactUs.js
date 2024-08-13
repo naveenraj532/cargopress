@@ -62,7 +62,7 @@ const ContactUs = () => {
             <h1 ref={contactUsRef} className="font-montserrat mt-24 font-bold text-charcoal text-4xl text-center opacity-0">
                 Contact Us
             </h1>
-            <div className="min-h-screen bg-gradient-to-b from-forest-green to-blue text-charcoal font-montserrat p-6 mt-8 md:p-12 mb-12">
+            <div className="min-h-screen bg-gradient-to-b from-blue to-white text-charcoal font-montserrat p-6 mt-8 md:p-12 mb-12">
                 <div className="flex flex-col gap-10 md:flex-row items-start md:items-start px-16 md:px-8">
                     <div className="w-full md:w-2/5 mt-12 md:mt-0 md:ml-4">
                         <div ref={warehouseRef1} className="opacity-0">
