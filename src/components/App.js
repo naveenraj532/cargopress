@@ -1,5 +1,6 @@
-import '../index.css'; // Ensure the correct path to your CSS file
+import '../index.css';
 import AboutUs from '../pages/AboutUs';
+import ContactUs from '../pages/ContactUs';
 import { Home } from '../pages/Home';
 import OurServices from '../pages/OurServices';
 import { Footer } from '../sections/Footer';
@@ -16,6 +17,7 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/about-us' element={<AboutUs />} />
               <Route path='/our-services' element={<OurServices />} />
+              <Route path='/contact-us' element={<ContactUs />} />
           </Routes>
           <section className="xl:padding-0 wide:padding-r">
              <Footer />
