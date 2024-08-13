@@ -1,7 +1,7 @@
 import '../index.css';
 import AboutUs from '../pages/AboutUs';
 import ContactUs from '../pages/ContactUs';
-import { Home } from '../pages/Home';
+import  Home  from '../pages/Home.js';
 import OurServices from '../pages/OurServices';
 import { Footer } from '../sections/Footer';
 import Navbar from './Navbar';

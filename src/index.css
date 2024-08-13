@@ -70,3 +70,19 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+/* Add to your CSS file or Tailwind CSS configuration */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
